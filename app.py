@@ -49,6 +49,7 @@ ma = Marshmallow(app): Se crea un objeto ma de la clase Marshmallow, que se util
 # app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:root@localhost/proyecto"
 #app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:root@localhost/proyecto"
 
+#app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://GMedici:codoacodo@GMedici.mysql.pythonanywhere-services.com/GMedici$proyecto'
 app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql+pymysql://GMedici:codoacodo@GMedici.mysql.pythonanywhere-services.com/GMedici$proyecto'
 
 # Configura el seguimiento de modificaciones de SQLAlchemy a False para mejorar el rendimiento
