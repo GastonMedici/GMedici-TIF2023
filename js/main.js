@@ -27,7 +27,7 @@ document.getElementById("header").innerHTML = `
             </ul>
 
             <form class="d-flex my-2 my-lg-0" name="busqueda" method="POST" action="" id="formularioBusqueda">
-            <input class="form-control me-sm-2" type="text" placeholder="" name="textoBuscado">
+            <input class="form-control me-sm-2" type="text" placeholder="Ingrese una busqueda" name="textoBuscado">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
         </div>
